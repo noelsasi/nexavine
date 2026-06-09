@@ -26,7 +26,7 @@ export default function WhyNexavine() {
           transition={{ duration: 0.7, ease: "easeOut" as const }}
           className="max-w-[720px]"
         >
-          <Eyebrow num="02">The difference</Eyebrow>
+          <Eyebrow num="03">The difference</Eyebrow>
           <h2 className="mt-[22px]" style={{ fontFamily: '"Newsreader", serif', fontWeight: 400, letterSpacing: "-0.018em", lineHeight: 1.06, fontSize: "clamp(34px, 4.6vw, 58px)" }}>
             Why businesses choose Nexavine
           </h2>
