@@ -37,16 +37,16 @@ export default function Header() {
         }}
       >
         <div className="mx-auto w-full max-w-[1200px] px-6 flex items-center justify-between h-[72px]">
-          <Link href="/" className="flex items-center gap-[11px] font-semibold text-[17px] tracking-tight" style={{ color: "var(--ink)" }}>
+          <Link href="/#top" className="flex items-center gap-[11px] font-semibold text-[17px] tracking-tight" style={{ color: "var(--ink)" }}>
             <BrandMark />
             Nexavine
           </Link>
 
           <nav className="hidden md:flex items-center gap-[34px]">
-            {["Services", "TradeAI", "Why Nexavine", "About", "Process"].map((item) => (
+            {["Services", "TradeAI", "Why Nexavine", "Process"].map((item) => (
               <a
                 key={item}
-                href={item === "TradeAI" ? "#tradeai" : item === "About" ? "#founder" : `#${item.toLowerCase().replace(/\s/g, "")}`}
+                href={item === "TradeAI" ? "#tradeai" : `#${item.toLowerCase().replace(/\s/g, "")}`}
                 className="text-[14.5px] font-medium whitespace-nowrap relative transition-colors duration-200 nav-link"
                 style={{ color: "var(--ink-2)" }}
               >
@@ -96,7 +96,6 @@ export default function Header() {
           { label: "Services", href: "#services" },
           { label: "TradeAI", href: "#tradeai" },
           { label: "Why Nexavine", href: "#whynexavine" },
-          { label: "About", href: "#founder" },
           { label: "Process", href: "#process" },
         ].map(({ label, href }) => (
           <a

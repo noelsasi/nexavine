@@ -26,7 +26,7 @@ export default function Process() {
           transition={{ duration: 0.7, ease: "easeOut" as const }}
           className="max-w-[720px]"
         >
-          <Eyebrow num="04">Engagement</Eyebrow>
+          <Eyebrow num="03">Engagement</Eyebrow>
           <h2 className="mt-[22px]" style={{ fontFamily: '"Newsreader", serif', fontWeight: 400, letterSpacing: "-0.018em", lineHeight: 1.06, fontSize: "clamp(34px, 4.6vw, 58px)" }}>
             How we work
           </h2>

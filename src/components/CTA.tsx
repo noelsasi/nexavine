@@ -44,7 +44,7 @@ export default function CTA() {
           </p>
           <div className="relative flex gap-[14px] justify-center mt-[38px] flex-wrap">
             <a
-              href="mailto:hello@nexavine.com"
+              href="mailto:noelsasikanth@gmail.com"
               className="inline-flex items-center gap-2 text-[15px] font-semibold px-[22px] py-[13px] rounded-[10px] text-white transition-all duration-200 hover:-translate-y-px"
               style={{ background: "var(--indigo)", border: "1px solid oklch(0.7 0.18 274 / 0.6)" }}
             >
@@ -52,7 +52,7 @@ export default function CTA() {
               <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
             </a>
             <a
-              href="mailto:hello@nexavine.com"
+              href="mailto:noelsasikanth@gmail.com"
               className="inline-flex items-center text-[15px] font-semibold px-[22px] py-[13px] rounded-[10px] transition-all duration-200 hover:-translate-y-px"
               style={{ background: "oklch(1 0 0 / 0.03)", color: "var(--ink)", border: "1px solid var(--hairline-2)" }}
             >

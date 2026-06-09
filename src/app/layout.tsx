@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Nexavine Technologies — AI Solutions & Product Engineering",
   description:
-    "Nexavine Technologies designs and builds AI-powered products, workflow automation systems, and intelligent business platforms for logistics, trade and operations teams in Dubai and the UAE.",
+    "Nexavine Technologies designs and builds AI-powered products, workflow automation systems, and intelligent business platforms for logistics, trade and operations teams.",
   openGraph: {
     title: "Nexavine Technologies — AI Solutions That Automate Complex Business Workflows",
     description:

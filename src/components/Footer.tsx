@@ -29,12 +29,15 @@ export default function Footer() {
       <div className="mx-auto w-full max-w-[1200px] px-6">
         <div className="grid grid-cols-1 md:grid-cols-[1.4fr_1fr_1fr] gap-10">
           <div>
-            <Link href="/" className="flex items-center gap-[11px] font-semibold text-[17px] tracking-tight mb-4" style={{ color: "var(--ink)" }}>
+            <Link href="/#top" className="flex items-center gap-[11px] font-semibold text-[17px] tracking-tight mb-2" style={{ color: "var(--ink)" }}>
               <BrandMark />
               Nexavine
             </Link>
+            <p className="mb-4" style={{ fontFamily: '"JetBrains Mono", monospace', fontSize: 12, color: "var(--ink-4)", letterSpacing: "0.02em" }}>
+              Founded by Noel Sasikanth
+            </p>
             <p style={{ color: "var(--ink-3)", fontSize: 14.5, maxWidth: 320 }}>
-              A boutique AI product studio building workflow automation and intelligent software for logistics, trade and operations teams across Dubai and the UAE.
+              A boutique AI product studio building workflow automation and intelligent software for logistics, trade and operations teams globally.
             </p>
           </div>
 
@@ -45,7 +48,6 @@ export default function Footer() {
                 { label: "Home", href: "/" },
                 { label: "Services", href: "#services" },
                 { label: "TradeAI", href: "/tradeai" },
-                { label: "About", href: "#founder" },
                 { label: "Contact", href: "#contact" },
               ].map(({ label, href }) => (
                 <li key={label}>
@@ -64,9 +66,9 @@ export default function Footer() {
             <h4 className="mb-[18px]" style={{ fontFamily: '"JetBrains Mono", monospace', fontSize: 11.5, letterSpacing: "0.1em", textTransform: "uppercase", color: "var(--ink-4)", fontWeight: 500 }}>Connect</h4>
             <ul className="grid gap-3 list-none p-0 m-0">
               {[
-                { label: "LinkedIn", href: "#" },
-                { label: "GitHub", href: "#" },
-                { label: "hello@nexavine.com", href: "mailto:hello@nexavine.com" },
+                { label: "LinkedIn", href: "https://www.linkedin.com/in/noelsasikanth/" },
+                { label: "GitHub", href: "https://github.com/noelsasi" },
+                { label: "noelsasikanth@gmail.com", href: "mailto:noelsasikanth@gmail.com" },
               ].map(({ label, href }) => (
                 <li key={label}>
                   <a href={href} rel="noopener" className="transition-colors duration-200" style={{ color: "var(--ink-2)", fontSize: 14.5 }}
@@ -85,7 +87,7 @@ export default function Footer() {
           className="flex items-center justify-between mt-14 pt-7 flex-wrap gap-[14px]"
           style={{ borderTop: "1px solid var(--hairline)", fontFamily: '"JetBrains Mono", monospace', fontSize: 12, color: "var(--ink-4)" }}
         >
-          <span>© 2026 Nexavine Technologies. Dubai, UAE.</span>
+          <span>© 2026 Nexavine Technologies.</span>
           <span>AI Solutions · Product Engineering</span>
         </div>
       </div>

@@ -4,7 +4,6 @@ import Trust from "@/components/Trust";
 import Services from "@/components/Services";
 import TradeAISection from "@/components/TradeAISection";
 import WhyNexavine from "@/components/WhyNexavine";
-import Founder from "@/components/Founder";
 import Process from "@/components/Process";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
@@ -19,7 +18,6 @@ export default function Home() {
         <Services />
         <TradeAISection />
         <WhyNexavine />
-        <Founder />
         <Process />
         <CTA />
       </main>

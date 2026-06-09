@@ -36,7 +36,7 @@ export default function Hero() {
             }}
           >
             <span className="w-[6px] h-[6px] rounded-full" style={{ background: "var(--indigo)" }} />
-            AI Product Studio · Dubai, UAE
+            AI Product Studio
           </span>
 
           <h1
